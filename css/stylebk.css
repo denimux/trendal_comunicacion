@@ -1,0 +1,498 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.default_color_text{color: #0084B1  !important}
+nav ul a {
+    font-size: 1.2rem;
+    color: #444;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+nav .brand-logo {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+}
+
+@media only screen and (min-width: 601px){
+nav {
+    height: 84px;
+    line-height: 84px;
+    }
+}
+.brand-logo img{
+  padding: 10px 0 10px 0;
+  height: 100px;
+}
+
+.button-collapse {
+  color: #0084B1;
+}
+
+/*.parallax-container {
+    max-height: 400px;
+}*/
+
+.parallax-container .section {
+  width: 100%;
+}
+.parallax-container .section h1{
+  padding-top: 10rem;
+}
+
+.cta {
+  color: white;
+}
+.cta a{
+  padding-bottom: 10px;
+}
+@media only screen and (max-width : 992px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 64px;
+      line-height: 64px;
+      }
+      .brand-logo img{
+        padding: 5px 0 5px 0;
+        height: 70px;
+      }
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+/*********************
+  NAVIGATION
+**********************/
+/*.navbar {
+  background-color: transparent !important;
+}
+
+.top-nav-collapse {
+  background-color: #1C2331 !important;
+}*/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331 !important;
+  }
+}
+
+/*********************
+  MAIN CAROUSEL
+**********************/
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.item:nth-child(1) {
+  background-image: url("http://mdbootstrap.com/images/reg-dark/reg%20(5).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:nth-child(2) {
+  background-image: url("http://mdbootstrap.com/images/reg-dark/reg%20(2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:nth-child(3) {
+  background-image: url("http://mdbootstrap.com/images/reg-dark/reg%20(3).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*********************
+  TEMPLATE COLORS
+**********************/
+.pt-color {
+  background-color: #1C2331 !important;
+}
+
+.st-color {
+  background-color: #4D5668 !important;
+}
+
+.et-color {
+  background-color: #3F729B !important;
+}
+
+.btn-ptc {
+  background-color: #1C2331 !important;
+}
+
+.btn-ptc:hover {
+  background-color: #2f3a51 !important;
+}
+
+.btn-ptc:focus {
+  background-color: #2f3a51 !important;
+}
+
+.btn-stc {
+  background-color: #4D5668 !important;
+}
+
+.btn-stc:hover {
+  background-color: #636e85 !important;
+}
+
+.btn-stc:focus {
+  background-color: #636e85 !important;
+}
+
+.btn-etc {
+  background-color: #3F729B !important;
+}
+
+.btn-etc:hover {
+  background-color: #548cb9 !important;
+}
+
+.btn-etc:focus {
+  background-color: #548cb9 !important;
+}
+
+.fb-bg {
+  background-color: #3B5998;
+}
+
+.tw-bg {
+  background-color: #55ACEE;
+}
+
+.gplus-bg {
+  background-color: #DD4B39;
+}
+
+/*********************
+  FOOTER
+**********************/
+footer.page-footer {
+  margin-top: 0;
+  background-color: #1C2331;
+}
+
+/* Custom Stylesheet */
+/**
+ *
+ * Made By Joash Pereira
+ * Thanks for MaterializeCSS.com
+ */
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+#intro, #work, #quehacemos {padding-top: 4rem;}
+
+#quehacemos { padding-bottom: 4rem;}
+
+#index-banner {
+    min-height: 632px;
+    max-height: 864px;
+    position: relative;
+
+}
+
+#nav_f{
+    box-shadow: none !important;
+    -webkit-box-shadow:none !important;
+}
+
+.text_h {
+    padding: 15% 0;
+    font-size: 6.0em;
+    font-weight: 100;
+    color:#0084B1;
+}
+
+
+
+.text_h2 {font-size: 2.2rem; font-weight: 100;margin-bottom: 4%; line-height: 3.6rem;}
+
+.span_h2 {font-weight: 300;color: #0084B1;}
+
+.text_b{color: #0084B1;}
+
+.text_b small{color: #4d5056;}
+
+#quehacemos .collapsible i {
+  color: #85BDDC;
+}
+
+.in{font-weight: 400 !important; font-style: normal !important;}
+
+.promo i {
+    color: #58595b;
+    font-size: 7rem;
+    display: block;
+}
+.card-content a {color: #2196F3;}
+
+.card-content a:hover {color: #2196F3;}
+
+#work, #quehacemos{background: rgb(247, 247, 247);}
+
+.text_pink{color:#EF9A9A;}
+
+@media only screen and (max-width: 768px){
+  .text_h {
+      padding: 15% 0;
+      font-size: 4.0em;
+      font-weight: 100;
+  }
+
+   .cd-headline.type .cd-words-wrapper b{
+     font-size: 3.2rem;
+     display: block;
+     box-sizing: border-box;
+   }
+}
+
+.cd-headline.type .cd-words-wrapper {
+    vertical-align: top;
+    overflow: hidden;
+    color: white;
+    display: block;
+}
+
+.cd-headline.type .cd-words-wrapper::after {
+    /* vertical bar */
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 90%;
+    width: 1px;
+}
+
+.cd-headline.type .cd-words-wrapper.waiting::after {
+    -webkit-animation: cd-pulse 1s infinite;
+    -moz-animation: cd-pulse 1s infinite;
+    animation: cd-pulse 1s infinite;
+}
+
+
+.cd-headline.type .cd-words-wrapper.selected::after {
+    visibility: hidden;
+}
+
+.cd-headline.type .cd-words-wrapper.selected b {
+    color: #white;
+}
+
+.cd-headline.type b {
+    visibility: hidden;
+}
+
+.cd-headline.type b.is-visible {
+    visibility: visible;
+}
+
+.cd-headline.type i {
+    position: absolute;
+    visibility: hidden;
+}
+.cd-headline.type i.in {
+    position: relative;
+    visibility: visible;
+}
+
+@-webkit-keyframes cd-pulse {
+    0% {
+        -webkit-transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+@-moz-keyframes cd-pulse {
+    0% {
+        -moz-transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -moz-transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes cd-pulse {
+    0% {
+        -webkit-transform: translateY(-50%) scale(1);
+        -moz-transform: translateY(-50%) scale(1);
+        -ms-transform: translateY(-50%) scale(1);
+        -o-transform: translateY(-50%) scale(1);
+        transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-50%) scale(0.9);
+        -moz-transform: translateY(-50%) scale(0.9);
+        -ms-transform: translateY(-50%) scale(0.9);
+        -o-transform: translateY(-50%) scale(0.9);
+        transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(-50%) scale(0);
+        -moz-transform: translateY(-50%) scale(0);
+        -ms-transform: translateY(-50%) scale(0);
+        -o-transform: translateY(-50%) scale(0);
+        transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:1200; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+@media only screen and (max-width: 480px) {
+    .text_h {
+        padding: 4% 0;
+        font-size: 5em;
+        font-weight: 100;
+
+    }
+}
+
+input, textarea {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.card-avatar .waves-effect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.card-avatar .card-content {
+    text-align: center;
+}
+
+.card .card-content p {
+    margin: 15px 0px;
+}
+
+.card-avatar .card-content i {
+   font-size: 1.1rem;
+}
+
+.card-avatar .card-content .card-title {
+    line-height: 30px !important;
+}
+
+.card-content span.card-title {
+  font-size: 1.3rem;
+}
+
+footer.page-footer {
+    margin-top: 0px !important;
+}
+
+.collapsible i {
+   font-size: 2rem;
+}
+
+.collapsible li{
+  font-size: 1.2rem;
+}
+
+.light {
+  font-size: 1.2rem;
+}
+
+.primary-color {
+  background-color: #0084B1;
+}
+
+.primary-color:hover {
+  background-color: #85BDDC;
+}
+
+
+@media only screen and (max-width: 992px){
+    .mobile-list-margin {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://trendal.com.mx/</title>
+  <link>http://trendal.com.mx/</link>
+
+<item>
+     <link>http://trendal.com.mx/</link>
+     <title>TRENDAL - Comunicación e Influencia</title>
+     <description>Nuestro equipo ofrece un servicio personalizado e integral en los diversos ámbitos de la comunicación estratégica</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
